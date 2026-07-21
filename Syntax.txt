@@ -1,0 +1,67 @@
+Syntax do {sympy} (sp):
+
+from sympy.parsing.sympy_parser {
+
+função que converte texto em expressão simbólica = parse_expr 
+
+conjunto de regras básicas padrão do parser (conversão de números, nomes, etc.) = standard_transformations
+
+permite escrever nx em vez de n*x (multiplicação sem *) = implicit_multiplication_application
+
+converte ^ em ** (potência) = convert_xor
+
+}
+
+Raíz quadrada de um número = sp.sqrt(x)
+
+π (pi) = sp.pi
+
+e (Euler) = sp.exp(n)
+
+Infinite = sp.oo
+
+ln(n) = sp.log(n)
+
+sin(n) = sp.sin(n)
+
+cos(n) = sp.cos(n)
+
+tan(n) = sp.tan(n)
+
+Resolver uma equação = sp.solve(func, var)
+
+Derviada da função  = sp.diff(func, var)
+
+Limite da função = sp.limit(func, var, point)
+
+Limites da função para a esquerda e para a direita = sp.limit(func, var, point, dir = '+') ou sp.limit(func, var, point, dir = '-')
+
+Calcular uma primitiva da função = sp.integrate(func, var)
+
+Calcular uma integral = sp.integrate(func, (var, a, b))
+
+Substituir um valor numa função = func.subs(var, value)
+
+Transformar dados normais em objetos matemáticos so SymPy = sp.simpify(dados normais)
+
+número imaginário i (sqrt(-1)) = sp.I
+
+Parte real = sp.re(z)
+
+Parte imaginária = sp.im(z)
+
+Módulo = sp.Abs(z)
+
+Argumento (Ângulo) = sp.arg(z)
+
+Conjugado = sp.conjugate(z)
+
+Devolve o tuplo (real, imaginário) = z.as_real_imag()
+
+Expande a expressão na forma a + bi = sp.expand_complex(z)
+
+sp.sin(angle).rewrite(sp.exp) = Transforma o Seno na sua fórmula exponencial de Euler
+
+sp.cos(angle).rewrite(sp.exp) – Transforma o Cosseno na sua fórmula exponencial de Euler
+
+sp.tan(angle).rewrite(sp.exp) – Transforma a Tangente na sua fórmula exponencial de Euler
