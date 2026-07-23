@@ -1,1 +1,1 @@
-Este repositório serve apenas para eu criar os meus pequenos projetos e aprender mais sobre programação.
+> This repository is solely for me to create my small projects and learn more about programming.
