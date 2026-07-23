@@ -8,7 +8,7 @@ import sympy as sp
 
 
 
-
+#Função principal que vai correr todas as operações
 def probability_and_combinatorics():
     print()
 

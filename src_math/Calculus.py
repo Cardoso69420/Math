@@ -245,8 +245,9 @@ def calculus():
             print(f"{BLUE}{name}:{RESET} {YELLOW}{integral(func, x, a, b)}{RESET}\n")
         
         elif option == "13":
+            point = valid_answer("Introduz o ponto de expansão: ")
             Order = valid_answer("Introduz a ordem (n): ")
-            print(f"{BLUE}{name}:{RESET} {YELLOW}{taylor_series(func, x, Order, 1)}{RESET}")
+            print(f"{BLUE}{name}:{RESET} {YELLOW}{taylor_series(func, x, Order, point)}{RESET}")
 
         elif option == "14":
             Order = valid_answer("Introduz a ordem (n): ")
