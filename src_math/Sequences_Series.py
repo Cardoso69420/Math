@@ -1,25 +1,6 @@
 import sympy as sp
 
 
-
-
-
-
-
-
-
-
-def sequences_series():
-    print()
-
-
-if __name__ == "__main__":
-    sequences_series()
-
-
-import sympy as sp
-
-
 n = sp.Symbol('n', integer=True, positive=True)
 
 

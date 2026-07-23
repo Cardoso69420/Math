@@ -9,9 +9,9 @@ import sympy as sp
 
 
 
-def sequences_series():
+def probability_and_combinatorics():
     print()
 
 
 if __name__ == "__main__":
-    sequences_series()
+    probability_and_combinatorics()
